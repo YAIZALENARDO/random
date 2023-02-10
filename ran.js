@@ -3,4 +3,4 @@ var random  = threads[Math.floor(Math.random() * threads.length)];
 
 setTimeout(function(){
     window.location.href = 'https://api-onyourway.blogspot.com/' + random;
-}, 10000);
+}, 500);
